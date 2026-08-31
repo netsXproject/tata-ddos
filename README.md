@@ -3,13 +3,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://python.org)
 [![Rust 1.70+](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://rust-lang.org)
-[![Proxy Support](https://img.shields.io/badge/proxy-SOCKS4%2F5%2FHTTP-brightgreen)](https://github.com/nezX-project/tata-ddos)
+[![Proxy Support](https://img.shields.io/badge/proxy-SOCKS4%2F5%2FHTTP-brightgreen)](https://github.com/netsX-project/tata-ddos)
+[![WAF Bypass](https://img.shields.io/badge/WAF-bypass-red)](https://github.com/netsX-project/tata-ddos)
 
-> **Enterprise-grade stress-testing framework** – Simulate Black Friday traffic, DDoS attacks, and edge-case failures with full proxy rotation. Not for script kiddies.
+> **Enterprise-grade stress-testing framework** – Simulate Black Friday traffic, DDoS attacks, and edge-case failures with full proxy rotation and WAF bypass. Not for script kiddies.
 
-![TaTa Banner](https://raw.githubusercontent.com/nezX-project/tata-ddos/main/assets/banner.png)
+![TaTa Banner](https://raw.githubusercontent.com/netsX-project/tata-ddos/main/assets/banner.png)
 
----
+
 
 ## 🚀 Features
 
@@ -22,6 +23,10 @@
 - **Tor Integration** – Route through Tor for anonymity.
 - **GeoIP Filtering** – Filter proxies by country (optional).
 - **Sticky Sessions** – Persist proxy for entire attack.
+- **WAF Bypass** – Browser automation with JA3 fingerprint impersonation.
+- **JA3 Spoofing** – Impersonate Chrome, Firefox, Safari, Edge.
+- **CAPTCHA Solving** – Integration with 2captcha API.
+- **Human-like Behavior** – Mouse movements, scrolling, random clicks.
 - **Distributed by design** – Redis + Kubernetes auto-scaling (optional).
 - **Stealth king** – Poisson traffic shaping, TLS cipher rotation.
 - **Live dashboard** – Real-time PPS, error rate, proxy stats.
@@ -32,10 +37,11 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/nezX-project/tata-ddos.git
+git clone https://github.com/netsX-project/tata-ddos.git
 cd tata-ddos
 python3 -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 cargo build --release  # Requires Rust installed
 python3 setup.py install
+playwright install chromium firefox  # For WAF bypass
