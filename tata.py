@@ -35,8 +35,8 @@ BANNER = r"""
    ██║   ██║  ██║   ██║   ██║  ██║    ██████╔╝╚██████╔╝███████║
    ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
                                                                   
-            ──═╡  TaTa DDoS  ╞══─  v1.1.0  ──═╡  By nezX  ╞══─
-         ────═╡  https://github.com/nezX-project/tata-ddos  ╞────
+            ──═╡  TaTa DDoS  ╞══─  v1.0.0  ──═╡  By netsX  ╞══─
+         ────═╡  https://github.com/netsXproject/tata-ddos  ╞────
 """
 
 def signal_handler(sig, frame):
