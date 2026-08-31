@@ -36,7 +36,7 @@ BANNER = r"""
    ██║   ██║  ██║   ██║   ██║  ██║    ██████╔╝╚██████╔╝███████║
    ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
                                                                   
-            ──═╡  TaTa DDoS  ╞══─  v1.2.0  ──═╡  By netsX  ╞══─
+            ──═╡  TaTa DDoS  ╞══─  v1.0.0  ──═╡  By netsX  ╞══─
          ────═╡  https://github.com/netsX-project/tata-ddos  ╞────
 """
 
