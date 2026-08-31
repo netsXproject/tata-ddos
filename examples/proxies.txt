@@ -1,0 +1,9 @@
+# Simple proxy
+192.168.1.100:1080
+
+# Authenticated proxy
+203.0.113.5:3128:myuser:mypass
+
+# Mixed types (all supported)
+10.0.0.1:9050
+198.51.100.7:1080:admin:secret
